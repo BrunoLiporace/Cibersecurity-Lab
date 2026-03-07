@@ -1,2 +1,2 @@
 # Cibersecurity-Lab
-Technical portfolio for systems engineering and security. Focused on Linux infrastructure deployment, server hardening, and automated asset management.
+Technical repository documenting my specialization in Cybersecurity and Systems Infrastructure. This lab covers Linux Administration (Hardening & Automation), Network Fundamentals (TCP/IP Analysis), and Database Management (SQL).
