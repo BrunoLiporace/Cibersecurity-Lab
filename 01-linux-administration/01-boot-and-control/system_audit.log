@@ -1,0 +1,32 @@
+-----------------------------
+   Starting System Audit
+-----------------------------
+
+1. Boot Performance
+Startup finished in 2.438s (userspace) 
+graphical.target reached after 2.407s in userspace.
+
+Top 5 slowest services:
+2.619s motd-news.service
+1.211s landscape-client.service
+ 429ms dev-sdd.device
+ 407ms snapd.seeded.service
+ 395ms snapd.service
+
+2. Time & NTP Status
+                Time zone: America/Bahia (-03, -0300)
+System clock synchronized: yes
+              NTP service: active
+
+3. Current Locales
+System Locale: LANG=C.UTF-8
+    VC Keymap: (unset)
+   X11 Layout: us
+    X11 Model: pc105
+
+4. Failed Services Check
+All services are runnning correctly
+
+--------------------------------
+        AUDIT COMPLETE
+--------------------------------
