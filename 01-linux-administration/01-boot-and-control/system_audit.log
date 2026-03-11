@@ -2,30 +2,51 @@
    Starting System Audit
 -----------------------------
 
-1. Boot Performance
+[1] Boot Performance
 Startup finished in 2.438s (userspace) 
 graphical.target reached after 2.407s in userspace.
 
 Top 5 slowest services:
-2.619s motd-news.service
-1.211s landscape-client.service
- 429ms dev-sdd.device
- 407ms snapd.seeded.service
- 395ms snapd.service
+20min 319ms wsl-pro.service
+     2.619s motd-news.service
+     1.211s landscape-client.service
+      429ms dev-sdd.device
+      407ms snapd.seeded.service
 
-2. Time & NTP Status
+[2] Time & NTP Status
                 Time zone: America/Bahia (-03, -0300)
 System clock synchronized: yes
               NTP service: active
 
-3. Current Locales
+[3] Current Locales
 System Locale: LANG=C.UTF-8
     VC Keymap: (unset)
    X11 Layout: us
     X11 Model: pc105
 
-4. Failed Services Check
+[4] Failed Services Check
+
 All services are runnning correctly
+
+[5] Network Interface Status
+
+Note: systemd-networkd is inactive (Standard in WSL2)
+Active IPv4 Addresses:
+ Interface: lo | Address: 10.255.255.254/32
+ Interface: eth1 | Address: 192.168.18.122/24
+
+[6] Active User Sessions
+SESSION  UID USER     SEAT TTY   STATE  IDLE SINCE
+      1 1000 chichito -    pts/1 active yes  1h 30min ago
+
+1 sessions listed.
+
+Detailed session info for current user (chichito):
+chichito (1000)
+   Since: Tue 2026-03-10 21:28:04 -03; 1h 33min ago
+   State: active
+Sessions: *1
+  Linger: no
 
 --------------------------------
         AUDIT COMPLETE
