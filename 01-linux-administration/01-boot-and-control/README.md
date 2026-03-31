@@ -13,7 +13,18 @@ Technical documentation and automation tools regarding system startup, service m
 * **[system_audit.log](./system_audit.log):** Real-world output from the audit execution (Generated on March 10, 2026)
 * **[OBSERVABILITY.md](./OBSERVABILITY.md):** Reference guide for system logging (journalctl), network (networkctl) and sessions (loginctl)
 
-**Key Achievements:**
-* Verified **NTP synchronization** for security log integrity.
-* Analyzed **network interfaces** and active IPv4 addresses.
-* Audited **active user sessions** to ensure environment security.
+### Module 3: Process Management & Compilation
+* **[process_guardian.sh](./process_guardian.sh):** Automation tool for process auditing and system health.
+* **[process_audit.log](./process_audit.log):** Audit evidence (Zombie detection, Nice values, Service status).
+* **[PROCESS_MANAGEMENT.md](./PROCESS_MANAGEMENT.md):** Technical deep-dive into process lifecycle and the C comilation workflow.
+
+---
+
+## Technical Stack & Enviroment
+* **OS:** Ubuntu 24.04 LTS (via WSL2).
+* **Shell:** Bash.
+
+## Key Achievements
+* **Process Security:** Implemented automated detection of Zombie processes and high-priority resource hijackers.
+* **Architecture Awareness:** Documented the transition from `/init` (WSL2) to standard `systemd` enviroments.
+* **Supply Chain Security:** Analyzed the 4-stage compilation process and its implications on server hardening.

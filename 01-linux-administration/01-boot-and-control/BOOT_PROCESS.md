@@ -1,4 +1,4 @@
-# Module 1: Linux Boot Process & GRUB Analysis
+# Linux Boot Process & GRUB Analysis
 
 **Lab Environment:** Debian GNU/Linux 13
 **Plataform:** Oracle VM VirtualBox
