@@ -22,3 +22,13 @@ The primary objective is the implementation, management, and hardening of a corp
 ### 4.Kernel and Observability
 *Location: `04-kernel-and-observability/`*
 * **Core Focus:** Kernel management, compilation, and advanced log/event monitoring.
+
+## Laboratory Environment (Home Lab)
+
+Unlike standard virtualized enviroments, the practices in this repository are executed on a **dedicated Physical Server (Bare Metal)**:
+
+* **Hardware:** Legacy Notebook repurposed as a Headless Server.
+* **OS:** Debian 13 (Trixie) - Minimal Installation (CLI only).
+* **Management:** Fully headless administration via **SSH** (Secure Shell).
+* **Purpose:** Testing real-world hardware constraints, storage redundancy, and remote security auditing.
+
