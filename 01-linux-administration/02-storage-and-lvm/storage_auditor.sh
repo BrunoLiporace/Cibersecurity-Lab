@@ -15,7 +15,7 @@ echo ""
 echo "[!] Raid 1 Status (Redundancy Check):" >> $LOG_FILE
 if [ -f /proc/mdstat ]; then
 	cat /proc/mdstat >> $LOG_FILE
-	sudo mdadm --detail /dev/md0 | grep -E "State | Actiove Devices | Working Devices" >> $LOG_FILE
+	sudo mdadm --detail /dev/md0 | grep -E "State | Actib7/b6b6ve Devices | Working Devices" >> $LOG_FILE
 else
 	echo ""
 	echo "ERROR: Raid not detected." >> $LOG_FILE
