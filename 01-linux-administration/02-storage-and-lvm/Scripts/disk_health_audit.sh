@@ -2,7 +2,7 @@
 
 #Storage Health & Inode Monitoring
 
-LOG_FILE="disk_health.log"
+LOG_FILE="../Logs/disk_health.log"
 
 echo "--- [$(date)] DISK HEALTH AUDIT ---" > $LOG_FILE
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="process_audit.log"
+LOG_FILE="../Logs/process_audit.log"
 
 echo ""
 echo "--- [$(date)] PROCESS AUDIT START ---" > $LOG_FILE

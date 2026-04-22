@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="storage_report.log"
+LOG_FILE="../Logs/storage_report.log"
 
 echo ""
 echo "----[$(date) STORAGE & LVM AUDIT START ----]" > $LOG_FILE
