@@ -5,9 +5,9 @@ This directory contains technical research, automation script, and implementatio
 ## Contents
 * **[STORAGE_ARCH.md](./STORAGE_ARCH.md):** Technical deep-dive into the RAID 1 + LVM stack.
 * **[LINKS_AND_INODES.md](./LINKS_AND_LINKS.md):** Evidence-based analysis of Inode pointers and file linking (Hard vs. Soft links).
-* **[storage_auditor.sh](./storage_auditor.sh):** Automation script for RAID status and LVM mapping.
-* **[disk_health_audit.sh](./disk_health_audit.sh):** Diagnostic tool for Inode health and physical surface verification (badblocks).
-* **[storage_report.log](./storage_report.log):** Real execution logs from the Debian 13 server.
+* **[storage_auditor.sh](./Scripts/storage_auditor.sh):** Automation script for RAID status and LVM mapping.
+* **[disk_health_audit.sh](./Scripts/disk_health_audit.sh):** Diagnostic tool for Inode health and physical surface verification (badblocks).
+* **[storage_report.log](./Logs/storage_report.log):** Real execution logs from the Debian 13 server.
 
 ---
 
