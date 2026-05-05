@@ -9,7 +9,7 @@ I am currently documenting my progress in the following cryptographic domains:
 - **Modern Standards:** Learning Symmetric/Asymmetric encryption and NIST compliance.
 - **Next Steps:** Exploring Hashing algorithms, DLT (Distributed Ledger Technology), and Post-Quantum Cryptography.
 
-## echnical Stack
+## Technical Stack
 - **Operating Systems:** Debian 13 (Trixie), Linux Hardening, SSH Security.
 - **Security Tools (In Training):** OpenSSL, CyberChef, dCode, Python for Security.
 - **Completed Specializations:** Linux System Administration.
