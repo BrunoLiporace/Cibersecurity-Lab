@@ -1,4 +1,4 @@
-# Module 03: Cryptography and Secure Storage Management
+# Cryptography and Secure Storage Management
 
 This laboratory implements a **Defense in Depth** architecture through data-at-rest encryption and the automation of critical backups
 
