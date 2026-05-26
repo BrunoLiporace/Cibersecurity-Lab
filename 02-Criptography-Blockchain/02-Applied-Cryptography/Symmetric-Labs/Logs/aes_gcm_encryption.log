@@ -1,0 +1,20 @@
+============================================================
+           AES-GCM SYMMETRIC ENCRYPTION LAB
+============================================================
+[+] Generated Random 256-bit Symmetric Key: b392a206e05ececb55f63ed814096f7f91ff769ca0f8d84443ce100d1e54dfde
+[+] Plaintext Message: 'Top Secret: Operations framework deployed on Linux production cluster.'
+[*] Initializing AES-GCM Cipher Pipeline...
+[+] Nonce (IV) generated (Hex): 4ba3ac5143b7d63d66aa60e97dcebf70
+[+] Authentication Tag generated (Hex): f23b57ac9551f4aa62276548e591824a
+[+] Ciphertext Output (Hex): b0312275cce941f5e3f1e3a59ab9135542532aee5afe19c3ef...
+
+--- SCENARIO 1: Authorized Decryption ---
+[*] Initializing AES-GCM Decryption Pipeline...
+[SUCCESS] Integrity Verified! Recovered: 'Top Secret: Operations framework deployed on Linux production cluster.'
+
+--- SCENARIO 2: Ciphertext Tampering Attack ---
+[!] Attacker modified the ciphertext in transit...
+[*] Initializing AES-GCM Decryption Pipeline...
+[ALERT] Integrity Verification Failed! Tag mismatch.
+[ALERT] Security Control Active: Data rejected due to corruption.
+============================================================

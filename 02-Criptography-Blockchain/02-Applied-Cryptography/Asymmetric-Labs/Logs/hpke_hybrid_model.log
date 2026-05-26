@@ -1,0 +1,21 @@
+============================================================
+      HYBRID PUBLIC KEY ENCRYPTION (HPKE) SIMULATOR
+============================================================
+[*] Bob published his RSA Public Key.
+
+[+] Data to transmit: 'This is a large data payload encrypted efficiently via AES and protected via RSA!'
+
+[*] --- Alice Side: Encrypting Flow ---
+[+] Generated Random AES Session Key: a1cf821a946ec52fac1776efa9c76960026befa5df05a6b37e4abf5ab465f181
+[+] Encrypting payload using fast AES-GCM...
+[+] Encrypting the AES Session Key using Bob's RSA Public Key...
+
+[*] --- Bob Side: Decrypting Flow ---
+[+] Decrypting the AES Session Key using Bob's RSA Private Key...
+[+] Recovered AES Session Key: a1cf821a946ec52fac1776efa9c76960026befa5df05a6b37e4abf5ab465f181
+[+] Decrypting bulk payload using AES-GCM...
+
+============================================================
+[SUCCESS] Hybrid Decryption complete!
+Final Plaintext Output: This is a large data payload encrypted efficiently via AES and protected via RSA!
+============================================================

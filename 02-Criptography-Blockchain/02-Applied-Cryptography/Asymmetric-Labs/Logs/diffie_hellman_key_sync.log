@@ -1,0 +1,22 @@
+============================================================
+  DIFFIE-HELLMAN KEY EXCHANGE SIMULATION (MODULE 2)
+============================================================
+[*] Global Public Parameters:
+    - Prime modulus (q): 353
+    - Primitive root (a): 3
+
+[*] Private Keys (Kept Secret):
+    - Alice's Private Key (Xa): 97
+    - Bob's Private Key (Xb): 233
+
+[*] Calculating Public Keys...
+    - Alice's Public Key (Ya sent to Bob): 40  (Expected: 40)
+    - Bob's Public Key (Yb sent to Alice): 248 (Expected: 248)
+
+[*] Exchanging Public Keys & Deriving Shared Secret...
+    - Alice's Derived Secret (Ka): 160
+    - Bob's Derived Secret (Kb): 160
+
+============================================================
+[SUCCESS] Key Synchronization Complete!
+Shared Secret Symmetric Key Verified: 160 (Expected: 160)

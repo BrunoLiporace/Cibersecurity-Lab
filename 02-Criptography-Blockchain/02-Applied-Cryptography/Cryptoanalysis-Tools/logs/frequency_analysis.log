@@ -1,0 +1,27 @@
+============================================================
+          STATISTICAL FREQUENCY ANALYSIS LAB
+============================================================
+[*] Target Language Baseline (English Top Frequencies): E, T, A, O, I
+
+[+] Intercepted Ciphertext Packets:
+    "RIJ COOKI RE RIYI PYGCOYGHNENY, REO PYGCOYGHNENY NY REO SGR BH OCHBERNYV REO TOYVBHVO BENYON, REO VOZOGBH CNCO BH PYGCOYCNYROZ"
+
+[*] Running Cryptanalysis Mathematical Model...
+
+[+] Extracted Frequency Distribution Table:
+----------------------------------------
+  Character  |  Frequency Percentage
+----------------------------------------
+      O      |        16.19%
+      Y      |        13.33%
+      R      |        9.52%
+      N      |        9.52%
+      E      |        8.57%
+      C      |        7.62%
+      G      |        6.67%
+      H      |        6.67%
+----------------------------------------
+
+[DEDUCTION] The character 'O' has the highest density.
+In standard English text, this character likely maps to the letter 'E' or 'T'.
+============================================================

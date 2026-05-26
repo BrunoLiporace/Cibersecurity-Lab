@@ -1,0 +1,17 @@
+============================================================
+      RSA DIGITAL SIGNATURE AND INTEGRITY LAB
+============================================================
+[*] Generating 2048-bit RSA key pair...
+
+[+] Original Payload: 'CONFIDENTIAL: Transfer $5000 to account UTF-8.'
+[*] Alice: Hashing and signing the message...
+[+] Digital Signature generated successfully (Hex): a8af5ec1b3cea642a56f912e541b9fb6e48c26e6...
+
+--- SCENARIO 1: Intact Transmission ---
+[*] Bob: Verifying signature integrity...
+[SUCCESS] Signature is VALID. Integrity and authenticity verified!
+
+--- SCENARIO 2: Integrity Breach (MITM Attack) ---
+[!] Attacker changes payload to: 'CONFIDENTIAL: Transfer $9000 to account UTF-8.'
+[*] Bob: Verifying signature integrity...
+[ALERT] VERIFICATION FAILED! The payload was modified in transit.

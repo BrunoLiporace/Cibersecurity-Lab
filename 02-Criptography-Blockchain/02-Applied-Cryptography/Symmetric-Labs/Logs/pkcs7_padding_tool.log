@@ -1,0 +1,21 @@
+============================================================
+          PKCS#7 MANUAL PADDING LABORATORY
+============================================================
+[*] CASE 1: Processing unaligned text string (10 bytes of data)...
+    [-] Data Length: 10 bytes
+    [-] Required Pad: 6 bytes
+    [-] Padding Bytes Added (Hex): 060606060606
+[+] Resulting Block Payload (Hex): 31323334353637383930060606060606
+[SUCCESS] Stripped text plano recovered: '1234567890'
+
+[*] CASE 2: Processing data matching exact block length (16 bytes)...
+    [-] Data Length: 16 bytes
+    [-] Required Pad: 16 bytes
+    [-] Padding Bytes Added (Hex): 10101010101010101010101010101010
+[+] Resulting Block Payload (Hex): 415f504552464543545f424c4f434b2110101010101010101010101010101010
+[SUCCESS] Stripped text plano recovered: 'A_PERFECT_BLOCK!'
+
+[*] CASE 3: Simulating Padding Tampering Detection...
+[!] Target payload under validation (Hex): 31323334353637383930060606060699
+[ALERT] Integrity Breach Identified! Error: Invalid padding length indicator.
+============================================================
